@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <div class="nav-left">
+                <img src="nike logo.png" alt="" width="50px" height="50px">
+                <ul>
+                    <li>Home</li>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>Collection</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <!-- https://www.youtube.com/watch?v=mpqWW4rVA9o -->
+                <img src="search-2-line.png" alt="">
+                <img src="shopping-cart-2-line.png" alt="">
+                <img src="menu-line.png" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <div class="left">
+                <h5>Explore limited Edition </h5>
+                <h1>Nike limited edition</h1>
+                <p>Unleash the extra ordinary elevate your game with Nike's limited Edition.
+                    Where innovation meets style, leaving a lasting mark. Just to do it.
+                </p>
+                <button class="btn" onclick="openPopup()">Shop now</button>
+                <!-- for popup -->
+                <div class="popup" id="popup">
+                    <img src="tick.png" width="100px" height="100px">
+                    <h2>Thank you</h2>
+                    <p>your details has been successfully submitted. Thanks!</p>
+                    <button type="button" onclick="closePopup()">OK</button>
+                    </div>
+                
+            </div>
+            <div class="right">
+                <!-- <img src="" alt=""> -->
+                 <div class="product">
+                    <img src="shoe 2.jpeg" alt="">
+                    <img src="shoe 1.jpeg" class="s1">
+                    <p class="category">Men's shoes</p>
+                    <p class="color">Color:Black</p>
+                    <p class="price">14,999</p>
+                    <h4>Nike Air Max</h4>
+                 </div>
+                 <div class="product">
+                    <!-- <img src="shoe 1.jpeg" alt=""> -->
+                    <img src="shoe 2.jpeg" alt="">
+                    <p class="category">Men's shoes</p>
+                    <p class="color">Color:White</p>
+                    <p class="price">14,999</p>
+                    <h4>Nike Air Max</h4>
+                 </div>
+                 <div class="product">
+                    <img src="shoe 3.jpeg" alt="" width="200%">
+                    <p class="category">Men's shoes</p>
+                    <p class="color">Color:White</p>
+                    <p class="price">10,999</p>
+                    <h4>Nike Air Max</h4>
+                 </div>
+                 <div class="product">
+                    <img src="shoe 4.jpeg" alt="">
+                    <p class="category">Men's shoes</p>
+                    <p class="color">Color:Green</p>
+                    <p class="price">19,999</p>
+                    <h4>Nike Air Max</h4>
+                 </div>
+                 <div class="product">
+                    <img src="shoe 5.png" alt="">
+                    <p class="category">Women's shoes</p>
+                    <p class="color">Color:Red</p>
+                    <p class="price">18,999</p>
+                    <h4>Nike Air Max</h4>
+                 </div>
+             
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
